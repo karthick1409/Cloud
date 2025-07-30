@@ -30,7 +30,7 @@ resource "aws_instance" "windows_web" {
               EOF
 
   tags = {
-    Name = "Web-application"
+    Name = "win-github-actions"
   }
 }
 
